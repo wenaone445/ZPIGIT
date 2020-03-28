@@ -9,7 +9,7 @@ int liczba;
 int wybor;
 int ktory_wybor = 0;
     srand(time(NULL));
-        cout<<"maszyna losujaca wylosujee liczbe z przedzialu 1-1000"<<endl;
+        cout<<"maszyna losujaca wylosuje liczbe w przedziale 1-1000"<<endl;
         liczba = rand()%1000+1;
 
             while(wybor!=liczba){
